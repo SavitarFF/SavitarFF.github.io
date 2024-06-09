@@ -1,0 +1,96 @@
+.footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 60px;
+    border-top: 1px solid #ccc; 
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 30%;
+    margin-bottom: 10px;
+}
+
+
+.contact {
+    text-align: center;
+}
+
+.hours {
+    text-align: center;
+    border-bottom: 2px solid white; 
+}
+
+.social {
+    text-align: center;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+
+.social-icons a[href*="facebook.com"] {
+    color: #1760ff; 
+}
+
+.social-icons a[href*="tiktok.com"] {
+    color: #000000; 
+}
+
+.social-icons a[href*="instagram.com"] {
+    color: #C13584; 
+}
+
+
+.social-icons a[href*="facebook.com"]:hover {
+    color: #002f96; 
+}
+
+.social-icons a[href*="tiktok.com"]:hover {
+    color: #858585; 
+}
+
+.social-icons a[href*="instagram.com"]:hover {
+    color: #920053; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        flex-basis: auto;
+    }
+}

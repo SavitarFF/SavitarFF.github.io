@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rock+Salt&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;  
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+/*########################################LOADER DE LA PAGINA####################################################################### */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.ldio-x2uulkbinbj > div {
+    transform-origin: 100px 100px;
+    animation: ldio-x2uulkbinbj 0.2s infinite linear;
+  }
+  .ldio-x2uulkbinbj > div div {
+      position: absolute;
+      width: 22px;
+      height: 152px;
+      background: #646464;
+      left: 100px;
+      top: 100px;
+      transform: translate(-50%,-50%);
+  }
+  .ldio-x2uulkbinbj > div div:nth-child(1) {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+  .ldio-x2uulkbinbj > div div:nth-child(6) {
+      width: 80px;
+      height: 80px;
+      background: #ffffff;
+      border-radius: 50%;
+  }.ldio-x2uulkbinbj > div div:nth-child(3) {
+    transform: translate(-50%,-50%) rotate(45deg)
+  }.ldio-x2uulkbinbj > div div:nth-child(4) {
+    transform: translate(-50%,-50%) rotate(90deg)
+  }.ldio-x2uulkbinbj > div div:nth-child(5) {
+    transform: translate(-50%,-50%) rotate(135deg)
+  }
+  .loadingio-spinner-gear-nq4q5u6dq7r {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+  }
+  .ldio-x2uulkbinbj {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; 
+  }
+
+@keyframes ldio-x2uulkbinbj {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(22.5deg) }
+  100% { transform: rotate(45deg) }
+}
+
+
+/*########################################SECCIONES DE CADA SERVICIO XD####################################################################### */
+.content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;  
+    padding-bottom: 20px;
+}
+
+.content::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: calc(100% - 60px); 
+    height: 1px;
+    background-color: #000000; 
+}
+.serv {
+    padding: 30px;
+    background: #646464;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mante {
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mante2 {
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.afina{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.freno{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.suspe{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pint{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.revi{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.under{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.escaneo{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.motor{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.suspen{
+    padding: 30px;
+    background: #ffffff;
+    background-image: url('fondofordxd.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titleXD {
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#ffffff;
+    text-align: center;
+}
+
+.descripcionXD{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:  #ffffff;
+    text-align: center;
+    margin-top: 60px;
+    text-shadow:
+                
+    2.5px 2.5px 2.5px black,   
+    -2.5px -2.5px 2.5px black, 
+    2.5px -2.5px 2.5px black,  
+    -2.5px 2.5px 2.5px black;  
+   
+}
+
+.descripcion{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #646464;
+    text-align:left;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align:left;
+    font-weight: bold;
+    text-shadow:
+               
+    1.5px 1.5px 1.5px black,   
+    -1.5px -1.5px 1.5px black, 
+    1.5px -1.5px 1.5px black,  
+    -1.5px 1.5px 1.5px black;  
+    
+}
+.subtitulo1{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #646464;
+    text-align:left;
+    font-weight: bold;
+}
+.lista{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 15px;
+    color: #ffffff; 
+    text-shadow:
+    1px 1px 1px black,   
+    -1px -1px 1px black, 
+    1px -1px 1px black,  
+    -1px 1px 1px black;           
+}
+.lista li::before{
+    content: "• ";
+    color: #000000; 
+    
+    text-shadow:
+    1px 1px 1px black,   
+    -1px -1px 1px black, 
+    1px -1px 1px black,  
+    -1px 1px 1px black;      
+}
+
+
+
+.textoserv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 60%; 
+    margin: 50px; 
+    
+}
+
+.servicio-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.imgserv-container  {
+    flex: 1; 
+    max-width: calc(50% - 50px); 
+    margin: 20px 50px 50px 0px;
+}
+.textoserv-container {
+    flex: 1; 
+    max-width: calc(50% - 50px); 
+    margin: 20px 0px 50px 180px;
+    
+}
+
+
+.imgserv-container .imagen img{
+    width: 15rem; 
+    height: 18rem; 
+    box-shadow: 0 5px 10px #000000;
+    
+}
+.imagen{
+    padding: 0px 0px  0px 0px;
+}
+.textoimg p{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.textoimg p1{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.textoimg{
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px; 
+    color: #fff;
+    text-decoration: none;
+    background: #000000;
+    max-width: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 0 5px 10px #000000;
+}
+.contactanos {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px; 
+    color: #fff;
+    background: #15a73a;
+    max-width: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 0 5px 10px #000000;
+    
+}
+
+.contactanos a{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: -18px;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition: transform 1s ease; 
+}
+.contactanos:hover {
+    background: #494444;
+    transform: scale(1.1); 
+    
+}
+
+
+
+.lista {
+    margin-top: 10px; 
+    padding-left: 35px; 
+}
+.descripcion1{
+    font-family: "Anton", sans-serif;
+    margin-bottom: 15px;
+    font-size: 23px;
+    color: #ffffff;
+    text-align:left;
+    text-align: center;
+    background: #646464;
+}
+
+
+.icon img{
+    width: 80px; 
+    height: 80px;  
+}
+.icon p{
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+}
+.icon{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.imgicon{
+    margin: 0;
+    width: 80px; 
+    height: 80px;  
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+.imgicon:hover  img{
+    background: #494444;
+    border-radius:1rem;
+}
+@media (max-width: 1050px) {
+    .imgserv-container  {
+        flex: 1; 
+        max-width: calc(50% - 50px); 
+        margin: 20px 50px 50px 0px;
+    }
+    .textoserv-container {
+        flex: 1;
+        max-width: calc(50% - 50px); 
+        margin: 20px 0px 50px 120px; 
+        
+    }
+}
+    
+@media (max-width: 768px) {
+    .head {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        padding: 10px 20px;
+    }
+    .servicio-container {
+        flex-direction: column; 
+    }
+
+    .imgserv-container, .textoserv-container {
+        max-width: 100%; 
+    }
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+        margin-top: 20px;
+        justify-items: center;
+    }
+    .imgserv-container  {
+        flex: 1; 
+        max-width: calc(100% - 20px); 
+        margin: 10px; 
+    }
+    .textoserv-container {
+        flex: 1; 
+        max-width: calc(100% - 20px); 
+        margin:10px; 
+    }
+    
+}
